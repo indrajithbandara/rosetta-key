@@ -1,5 +1,10 @@
 tmp/
 *~
-*.tif
 *.jpeg
+*.m4a
+*.mp3
+*.png
+*.shp
 *.svg
+*.tiff
+*.wav
