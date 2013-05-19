@@ -1,0 +1,7 @@
+#
+# robots.txt for key.fileformat.info
+#
+# NOTE: An overview of the all the key files is available at http://www.digitalrosetta.org/
+#
+User-agent: *
+Disallow: /
