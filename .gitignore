@@ -1,5 +1,6 @@
 tmp/
 *~
+*.aiff
 *.jpeg
 *.m4a
 *.mp3
