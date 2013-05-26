@@ -110,6 +110,10 @@ for root, dirs, files in os.walk(options.srcpath):
 
 	for filename in files:
 
+		if filename[-1:] == '~':
+			print("INFO: skipping %s" % filename)
+			continue
+
 		(shortname, extension) = os.path.splitext(filename)
 
 		fullpath = os.path.join(root, filename)
