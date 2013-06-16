@@ -4,6 +4,7 @@ tmp/
 *.jpeg
 *.m4a
 *.mp3
+*.pdf
 *.png
 *.shp
 *.svg
