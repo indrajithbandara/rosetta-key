@@ -1,5 +1,7 @@
-tmp/
 *~
+.idea/
+tmp/
+*.tmp
 *.aiff
 *.jpeg
 *.m4a
@@ -7,6 +9,5 @@ tmp/
 *.pdf
 *.png
 *.shp
-*.svg
 *.tiff
 *.wav
