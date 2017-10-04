@@ -2,12 +2,4 @@
 .idea/
 tmp/
 *.tmp
-*.aiff
-*.jpeg
-*.m4a
-*.mp3
-*.pdf
-*.png
-*.shp
 *.tiff
-*.wav
