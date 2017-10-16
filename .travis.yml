@@ -1,0 +1,23 @@
+dist: trusty
+sudo: true
+language: python3
+before_install:
+  - sudo apt-get -qq update
+install:
+  - true
+script:
+  - true
+branches:
+  only:
+  - master
+deploy:
+  provider: s3
+  access_key_id: AKIAJM674IB6P6KCRS6A
+  secret_access_key:
+    secure: q/8bi3YYqWr1xvCZ1zvq8Xoa+hB+5byb8ovSrxdaCAhWsCKhlGojxQTfzXBa2smGDOZ8h3rUnm+7tO5etrz3xTbx3ei81a9uEPNDv0eOGKDEXzSqNz8gGjK0GldquDzR5O2jgmBLrGeD++Qd6+rDTquGCRQlEyFmLbxQyaJ8Wcpw2+ekS7NnGGYV+VKvUNfq7gMHdwX3mY74qMJbNt+eQr6z0WSoPRRoPSNSvvq2uyoQ6zUSJdbWc4vdO2NJp1g41an8sC9SdWcRETRfQHfB0se2Id4Jrk1/l8T6pY9934DTIuoPMYYR/Rd35JiudvhpIXlpMiuJd00NWKlavmWreOagD9nzALj+GOY7N/tkmG3oSHHXZTkzDTWHXM5a0kyiQrc87ZV30X7tzltTWxJTB30m9o1l1XL/2seKMFJYtxFlV21FwMtZQblSwFNsQ/4G58wByeG33JaFkSSl4G928FupILdbsmmbq9qQwWQrr2JnrSnzRWjC0LJZYWcTIJKbXCOgui4Rg7m+S5R10lbQ8WZlYeS/NG6+t2h2xDVxSPhvYr27yRxDqkEt6ROKVv0WYmDRqG3WUiyPyaoexC0aZbXXYyr5ADRIIOsurZ/eq3YbiPzDLCMK6SbDWlZzOqzRyEPQTLNHJ2CP1GeXj+n+Rp5ZFszdMoGy0gA9ew9Iqjk=
+  bucket: key.fileformat.info
+  local-dir: www
+  skip_cleanup: true
+  on:
+    repo: fileformat/rosetta-key
+    branch: master
