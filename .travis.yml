@@ -2,11 +2,11 @@ dist: trusty
 sudo: true
 language: python3
 before_install:
-  - sudo apt-get -qq update
+- sudo apt-get -qq update
 install:
-  - true
+- true
 script:
-  - true
+- true
 branches:
   only:
   - master
@@ -14,7 +14,7 @@ deploy:
   provider: s3
   access_key_id: AKIAJM674IB6P6KCRS6A
   secret_access_key:
-    secure: q/8bi3YYqWr1xvCZ1zvq8Xoa+hB+5byb8ovSrxdaCAhWsCKhlGojxQTfzXBa2smGDOZ8h3rUnm+7tO5etrz3xTbx3ei81a9uEPNDv0eOGKDEXzSqNz8gGjK0GldquDzR5O2jgmBLrGeD++Qd6+rDTquGCRQlEyFmLbxQyaJ8Wcpw2+ekS7NnGGYV+VKvUNfq7gMHdwX3mY74qMJbNt+eQr6z0WSoPRRoPSNSvvq2uyoQ6zUSJdbWc4vdO2NJp1g41an8sC9SdWcRETRfQHfB0se2Id4Jrk1/l8T6pY9934DTIuoPMYYR/Rd35JiudvhpIXlpMiuJd00NWKlavmWreOagD9nzALj+GOY7N/tkmG3oSHHXZTkzDTWHXM5a0kyiQrc87ZV30X7tzltTWxJTB30m9o1l1XL/2seKMFJYtxFlV21FwMtZQblSwFNsQ/4G58wByeG33JaFkSSl4G928FupILdbsmmbq9qQwWQrr2JnrSnzRWjC0LJZYWcTIJKbXCOgui4Rg7m+S5R10lbQ8WZlYeS/NG6+t2h2xDVxSPhvYr27yRxDqkEt6ROKVv0WYmDRqG3WUiyPyaoexC0aZbXXYyr5ADRIIOsurZ/eq3YbiPzDLCMK6SbDWlZzOqzRyEPQTLNHJ2CP1GeXj+n+Rp5ZFszdMoGy0gA9ew9Iqjk=
+    secure: eHe+YpVeWuGOOo8rYSe77y8ueuXuqBAaJOyTouRQz9N0Ujk7sWo4tEAdhKX73zz5kOAPjEbGI/Qni7Xcy32sDhUw2dye3CWjBYUQogQp3TTfzBlU7z09edL8yE/AVo/arXBbPsfTRwAX77LTPM1YSj2h8RWw1oT5T2lr+KYuI7ovb0+E/ZdtE2x5gRQbYnUVwmUdi1RalT7zvzBk1K/tH2Lz55hiM+ei10QCy3/cnLgc5F4q1Wsk9kJyfQex4NGOeDW6S31gQHnjsvhFtJJqby0BEqZTgh93i+OwBM5yP1cpEFEHlsO64uyE32iXhXM+mFibhNbCsdwckYB7qdabXofwpSK3Jwgue1Qi8ZJqKZg2IQGjkhUrc5igGCFLlxIX0Xrk+0qsNjqWjwJCWf9F35UThUaooGjjaQgCTGUFf8xjVanx1JdFmYRLM6siZxAprn0wynlPkYEvSIlx1PFvT5i9XRTuYjwETMrfB+Rf0YQLC/pufYP84oeak9zQO96Pr9othwcDXgCVKrDMZaD0bnHPCejdSs3WhTDf22L+zhc4bUM0tu/qnVZ34JtUD7SyJMjPvf9ogrQMKCg35QCDgPgQMmK2txI8cY+BGZcB7TJj4rzVWZ9lP3+5qkDG95e2QZn0gnOYVhSmZ3WZ4W9CpkY9xGmBZ5FpBOWTcuIo+Zk=
   bucket: key.fileformat.info
   local-dir: www
   skip_cleanup: true
