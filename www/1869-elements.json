@@ -1,0 +1,13 @@
+{
+  "changelog-2017-10-18": "Initial download and converted from XLSX to CSV in LibreOffice v5.1.6.2",
+  "contenttype": "text/csv; charset=utf-8",
+  "date": "1869-03-06",
+  "download": "https://www.kaggle.com/jwaitze/tablesoftheelements/downloads/periodic-table-of-the-elements.zip",
+  "download_page": "https://www.kaggle.com/jwaitze/tablesoftheelements",
+  "extension": "csv",
+  "md5sum": "78e8bd83a322c6333b7eff8d3a4178d0",
+  "rights": "publicdomain",
+  "size": 132888,
+  "title": "Periodic Table of the Elements",
+  "wikipedia": "https://en.wikipedia.org/wiki/Periodic_table"
+}
