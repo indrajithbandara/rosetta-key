@@ -1,14 +1,15 @@
 {
-  "changelog-2017-10-03": "Initial download from Google Patents",
-  "changelog-2017-11=18": "Manual cleanup of character set issues in LibreOffice then export to csv",
-  "contenttype": "text/csv; charset=utf-8",
+  "changelog-2017-10-03": "Initial download from AggData",
+  "changelog-2017-11-18": "Birthdate fixes, manual cleanup of character set issues in LibreOffice then export to csv",
+  "contenttype_strict": "text/csv; charset=utf-8",
+  "contenttype": "text/plain; charset=utf-8",
   "date": "1880-01-27",
   "download": "https://www.aggdata.com/download_sample.php?file=nobel.csv",
   "download_page": "https://www.aggdata.com/awards/nobel_prize_winners",
   "extension": "csv",
-  "md5sum": "08a66da6c60f41ad64f69141a6ee102d",
+  "md5sum": "ee2a1c33a218b030baabbc4b554e138b",
   "rights": "publicdomain",
-  "size": 321048,
+  "size": 265412,
   "title": "Nobel Prize winners 1901-2000",
   "wikipedia": "https://en.wikipedia.org/wiki/Nobel_Prize"
 }
