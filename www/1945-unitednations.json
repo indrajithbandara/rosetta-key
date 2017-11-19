@@ -1,0 +1,14 @@
+{
+  "changelog-2017-11-19": "Created CSV with un_data/makelist.py in the rosetta-tools repo",
+  "contenttype": "text/csv; charset=utf-8",
+  "contenttype_browser": "text/plain; charset=utf-8",
+  "date": "1945-06-26",
+  "download": "https://www.github.com/digitalrosetta/rosetta-tools",
+  "download_page": "http://www.un.org/depts/dhl/unms/founders.shtml",
+  "extension": "csv",
+  "md5sum": "71b2a2f8b3bc8dca5968b0a57dc17889",
+  "rights": "publicdomain",
+  "size": 8587,
+  "title": "Founding members of the United Nations",
+  "wikipedia": "https://en.wikipedia.org/wiki/Member_states_of_the_United_Nations#Original_members"
+}
