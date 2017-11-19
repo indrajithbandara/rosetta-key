@@ -1,8 +1,8 @@
 {
   "changelog-2017-10-03": "Initial download from AggData",
   "changelog-2017-11-18": "Birthdate fixes, manual cleanup of character set issues in LibreOffice then export to csv",
-  "contenttype_strict": "text/csv; charset=utf-8",
-  "contenttype": "text/plain; charset=utf-8",
+  "contenttype": "text/csv; charset=utf-8",
+  "contenttype_browser": "text/plain; charset=utf-8",
   "date": "1880-01-27",
   "download": "https://www.aggdata.com/download_sample.php?file=nobel.csv",
   "download_page": "https://www.aggdata.com/awards/nobel_prize_winners",
